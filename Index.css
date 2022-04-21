@@ -1,0 +1,59 @@
+.header-logo {
+  color: #6070FF;
+  font-family: ‘Poppins’;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  }
+  .home {
+      background-image: url("./images/header-shapes-mobile.svg");
+      width: 55vh;
+      height: 98vh;
+      background-position: 0px 54px;
+      background-repeat:no-repeat;
+  }
+  .first-nav {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .hamburger {
+      margin: 19px 28px;
+  }
+
+  .container {
+  height: 100%;
+  margin: 0px 20px;
+  }
+
+  .heading_second {
+  margin-top: 97px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+ }
+
+  .first-para {
+    background-color: red;
+  font-family: ‘Poppins’;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  }
+
+  .second-para {
+  color: #7F8CFF;
+  font-family: ‘Poppins’;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  }
+  
+  .logo-icons {
+      padding: 2px 6px;
+  }
