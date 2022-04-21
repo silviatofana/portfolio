@@ -1,11 +1,11 @@
 
-a{
+a {
   text-decoration: none;
 }
 
 .header-logo a {
   color: #6070ff;
-  font-family: "Poppins", "sans-serif";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -16,7 +16,7 @@ a{
   background-image: url(./image/header-shapes-mobile.svg);
   background-size: cover;
   height: 98vh;
-  background-position: 0px 54px;
+  background-position: 0 54px;
   background-repeat: no-repeat;
 }
 
@@ -31,12 +31,12 @@ a{
 
 .container {
   height: 100%;
-  margin: 0px 20px;
+  margin: 0 20px;
 }
 
 .heading_second {
   margin-top: 97px;
-  font-family: "Poppins", "sans-serif";
+  font-family: "Poppins", sans-serif;
   color: #172b4d;
   font-style: normal;
   font-weight: 700;
@@ -45,7 +45,7 @@ a{
 }
 
 .first-para {
-  font-family: "Poppins", "sans-serif";
+  font-family: "Poppins", sans-serif;
   color: #344563;
   font-style: normal;
   font-weight: 400;
@@ -55,7 +55,7 @@ a{
 
 .second-para {
   color: #7f8cff;
-  font-family: "Poppins", "sans-serif";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
