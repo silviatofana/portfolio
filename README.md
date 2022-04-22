@@ -1,73 +1,75 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio: setup and mobile version skeleton
 
-> Description the project.
+For this repository, I've created html templates and styling files in order to built a responsive portfolio ,  which can help to easy explorate  profiles from differents devices.
 
+![home_page](https://github.com/silviatofana/mobile-skeleton/blob/work_about_myself/statics/images/screenshot_home_page.png)
 
-## Built With
+## Built With 🔨
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Git & Github
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
+[Live Demo Link](https://github.com/silviatofana/portfolio/mobile-skeleton)
 
 ### Install
 
+To get a local copy up and running follow these simple example steps.
+- Open terminal
+- Clone this project by the command: 
+
+```
+$ git clone https://github.com/silviatofana/portfolio/compare/mobile-skeleton
+
+- Then go to the main folder using the next command:
+
+```
+$ cd Portfolio-setup-and-mobile-version-skeleton.git
+```
+
+- Finally, run diplay the index.html file in your local browser, or also, you can use Live Server in Visual Studio Code.
+
+
+
+### Prerequisites
+
+- IDE to edit and run the code (We use Visual Studio Code 🔥).
+- Git to versionning your work.
+
+
 ### Usage
 
-### Run tests
-
-### Deployment
-
+- For anyone who wants to practice html5 or/and css3
+- For anyone who wants to create his own portfolio.
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Taher Haggui**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@silviatofana](https://github.com/silviatofana)
+- LinkedIn: [@silviatofana](www.linkedin.com/in/silvia-tofana-10b852186)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+- Hat tip to anyone whose code was used 🔰
+- Inspiration 💘
+- Microverse program ⚡
+- My standup team 🏹
+- My family's support 🙌
