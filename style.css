@@ -12,10 +12,14 @@ a {
   line-height: 20px;
 }
 
+.mobile-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .home {
   background-image: url(./image/header-shapes-mobile.svg);
   background-size: cover;
-  height: 98vh;
   background-position: 0 54px;
   background-repeat: no-repeat;
 }
@@ -64,4 +68,14 @@ a {
 
 .logo-icons {
   padding: 2px 6px;
+  display: flex;
+}
+
+.social_links {
+  display: flex;
+  padding-left: 0;
+}
+
+.social_links li {
+  list-style: none;
 }
