@@ -36,6 +36,12 @@ a {
   border-radius: 10px;
 }
 
+.btn1:hover {
+  border: 1px solid white;
+  background-color: #396df2;
+  color: white;
+}
+
 .header-logo a {
   position: absolut;
   width: 76px;
@@ -871,10 +877,6 @@ hr {
   gap: 55px;
   place-content: center;
   margin-top: 115px;
-}
-
-.img_cardiv {
-  /* background-color: red; */
 }
 
 .mobi {
