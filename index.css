@@ -607,3 +607,8 @@ hr {
 .context {
   font-family: "poppin", sans-serif;
 }
+
+.arrow {
+  display: inline;
+  padding-top: 33px;
+}
