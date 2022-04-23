@@ -488,10 +488,6 @@ header {
   padding-top: 109px;
 }
 
-#img_third {
-  width: 40%;
-}
-
 .ellipse1 {
   padding: 12px;
   border-radius: 5px;
@@ -553,11 +549,6 @@ header {
   padding-top: 1rem;
   margin-left: 2rem;
   margin-bottom: 27px;
-}
-
-#span {
-  padding-top: 12px;
-  display: none;
 }
 
 hr {
