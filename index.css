@@ -59,11 +59,6 @@
   line-height: 24px;
 }
 
-.logo-icons {
-  padding: 2px 6px;
-  display: flex;
-}
-
 .social_links {
   display: flex;
   padding-left: 0;
@@ -71,6 +66,8 @@
 
 .social_links li {
   list-style: none;
+  margin-right: 8px;
+
 }
 
 .side_info {
@@ -364,3 +361,60 @@ hr {
   display: inline;
   padding-top: 33px;
 }
+
+.contact{
+  background-color: #6070ff;
+  padding-top: 84px;
+  border-top-left-radius: 95px ;
+  background-image: url(./images/contact\ form\ shapes-mobile@2x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+
+.contact h2{
+  text-align: center;
+  color: #ffffff;
+  font-family: 'poppin', sans-serif;
+  font-size: 40px;
+}
+.contact p{
+  text-align: center;
+  color: #ebebff;
+  margin: 0px 24px;
+  font-family: "poppin", sans-serif;
+  font-size: 20px;
+}
+
+.contact-form{
+  padding-top: 62px;
+  text-align: center;
+  padding-bottom: 53px;
+
+
+}
+
+
+.contact input{
+  margin: 10px 24px;
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  padding: 12px;
+
+}
+
+.contact textarea{
+  margin: 10px 24px;
+  width: 327px;
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  padding: 12px;
+}
+
+
+
+
