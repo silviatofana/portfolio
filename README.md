@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile version skeleton
+# Portfolio: setup and mobile version skeleton desktop-version
 
 For this repository, I've created html templates and styling files in order to built a responsive portfolio ,  which can help to easy explorate  profiles from differents devices.
 
-![home_page](https://github.com/silviatofana/mobile-skeleton/blob/work_about_myself/statics/images/screenshot_home_page.png)
+![home_page](https://github.com/silviatofana/desktop-ersion/blob/work_about_myself/images/screenshot_home_page.png)
 
 ## Built With 🔨
 
@@ -23,12 +23,12 @@ To get a local copy up and running follow these simple example steps.
 - Clone this project by the command: 
 
 ```
-$ git clone https://github.com/silviatofana/portfolio/compare/mobile-skeleton
+$ git clone https://github.com/silviatofana/portfolio
 
 - Then go to the main folder using the next command:
 
 ```
-$ cd Portfolio-setup-and-mobile-version-skeleton.git
+$ cd Portfolio-setup-and-desktop-version.git
 ```
 
 - Finally, run diplay the index.html file in your local browser, or also, you can use Live Server in Visual Studio Code.
@@ -49,7 +49,7 @@ $ cd Portfolio-setup-and-mobile-version-skeleton.git
 
 ## Authors
 
-👤 **Taher Haggui**
+👤 **Silvia Tofana**
 
 - GitHub: [@silviatofana](https://github.com/silviatofana)
 - LinkedIn: [@silviatofana](www.linkedin.com/in/silvia-tofana-10b852186)
