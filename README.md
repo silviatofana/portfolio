@@ -14,7 +14,7 @@ For this repository, I've created html templates and styling files in order to b
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/silviatofana/portfolio/mobile-skeleton)
+[Live Demo Link](https://silviatofana.github.io/portfolio/)
 
 ### Install
 
