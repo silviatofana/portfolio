@@ -206,7 +206,7 @@ p {
   content: "";
   position: absolute;
   background-color: #fff;
-  background-image: url("https://raw.githubusercontent.com/silviatofana/portfolio-microverse/add-set-up-mobile-version--portfolio/images/shapes.png");
+  background-image: url("./images/desktop/headline-background.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -221,6 +221,8 @@ p {
 
 .head {
   flex-direction: column;
+  background-image: url("./images/desktop/headline-background.svg");
+
   align-items: flex-start;
   position: relative;
   padding: 6rem 1.5rem;
@@ -406,7 +408,7 @@ p {
   content: "";
   position: absolute;
   background-color: #6070ff;
-  background-image: url("https://raw.githubusercontent/silviatofana/portfolio/c8dcf1476c30337e684a9325358fe7f2b7410486/images/contact-form-shapes-mobile.svg");
+  background-image: url("./images/desktop/contact-form-background.svg");
   background-size: contain;
   background-position: right;
   background-origin: content-box;
