@@ -674,7 +674,7 @@ p {
   transform: scale(1.5);
 }
 
-/* @-webkit-keyframes rotate-logo {
+@-webkit-keyframes rotate-logo {
   50% {
     transform: scale(1.5) rotate(360deg) translateX(-50%);
   }
@@ -682,9 +682,9 @@ p {
   to {
     transform: scale(1) rotate(720deg) translateX(0);
   }
-} */
+}
 
-/* @keyframes rotate-logo {
+@keyframes rotate-logo {
   50% {
     transform: scale(1.5) rotate(360deg) translateX(-50%);
   }
@@ -692,4 +692,4 @@ p {
   to {
     transform: scale(1) rotate(720deg) translateX(0);
   }
-} */
+}
