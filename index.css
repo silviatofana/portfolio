@@ -192,6 +192,12 @@ p {
 
 .navbar__link {
   color: #6070ff;
+  -webkit-animation-name: rotate-logo;
+  animation-name: rotate-logo;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 .navbar__menu {
@@ -221,8 +227,6 @@ p {
 
 .head {
   flex-direction: column;
-  background-image: url("./images/header-shapes.png");
-
   align-items: flex-start;
   position: relative;
   padding: 6rem 1.5rem;
@@ -250,9 +254,6 @@ p {
 
 .head__icons {
   margin: 0.5rem 0;
-}
-
-.head__icons__ul {
   align-items: center;
   justify-content: space-between;
   width: 11rem;
@@ -275,10 +276,6 @@ p {
 }
 
 .works__card__img {
-  width: 100%;
-}
-
-.works__card__img img {
   width: 100%;
 }
 
@@ -339,17 +336,14 @@ p {
   text-transform: uppercase;
 }
 
-.about__icons {
-  margin: 1.3rem 0 1rem;
-}
-
 .about__icons__ul {
+  margin: 1.3rem 0 1rem;
   align-items: center;
   justify-content: space-between;
   width: 11rem;
 }
 
-.about__btn .btn {
+.about .btn {
   width: 162px;
   height: 48px;
   padding: 12px;
@@ -489,7 +483,7 @@ p {
   }
 
   .head::before {
-    background-image: url("./images/Header\ bg.png");
+    background-image: url("./images/desktop/Header\ bg@2x.png");
     padding: 6rem;
     border-bottom-left-radius: 8rem;
   }
@@ -652,5 +646,50 @@ p {
   .contact {
     padding: 8.875rem;
     padding-bottom: 7.9rem;
+  }
+}
+
+.navbar__menu__link {
+  transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
+}
+
+.navbar__menu__link:hover {
+  color: #396df2;
+  font-size: 17px;
+}
+
+.head__icons__link img {
+  transition: transform 0.5s;
+}
+
+.about__icons__link img {
+  transition: transform 0.5s;
+}
+
+.head__icons__link img:hover {
+  transform: scale(1.5);
+}
+
+.about__icons__link img:hover {
+  transform: scale(1.5);
+}
+
+@-webkit-keyframes rotate-logo {
+  50% {
+    transform: scale(1.5) rotate(360deg) translateX(-50%);
+  }
+
+  to {
+    transform: scale(1) rotate(720deg) translateX(0);
+  }
+}
+
+@keyframes rotate-logo {
+  50% {
+    transform: scale(1.5) rotate(360deg) translateX(-50%);
+  }
+
+  to {
+    transform: scale(1) rotate(720deg) translateX(0);
   }
 }
