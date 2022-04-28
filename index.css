@@ -221,7 +221,7 @@ p {
 
 .head {
   flex-direction: column;
-  background-image: url("./images/desktop/headline-background.svg");
+  background-image: url("./images/header-shapes.png");
 
   align-items: flex-start;
   position: relative;
@@ -408,7 +408,7 @@ p {
   content: "";
   position: absolute;
   background-color: #6070ff;
-  background-image: url("./images/desktop/contact\ form\ background\ shapes@2x.png");
+  background-image: url("./images/desktop/contactformbackground\ shapes@2x.png");
   background-size: contain;
   background-position: right;
   background-origin: content-box;
