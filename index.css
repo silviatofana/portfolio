@@ -683,3 +683,13 @@ p {
     transform: scale(1) rotate(720deg) translateX(0);
   }
 }
+
+@keyframes rotate-logo {
+  50% {
+    transform: scale(1.5) rotate(360deg) translateX(-50%);
+  }
+
+  to {
+    transform: scale(1) rotate(720deg) translateX(0);
+  }
+}
