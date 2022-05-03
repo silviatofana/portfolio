@@ -49,11 +49,11 @@ p {
 }
 
 .clr-n-500 {
-  color: #7a869a;
+  color: #4b5363;
 }
 
 .clr-p-500 {
-  color: #396df2;
+  color: #3b424e;
 }
 
 .clr-p-400 {
@@ -198,6 +198,7 @@ p {
   animation-duration: 1.5s;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+  margin-right: 37%;
 }
 
 .navbar__menu {
