@@ -198,6 +198,7 @@ p {
   animation-duration: 1.5s;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+  margin-right: 37%;
 }
 
 .navbar__menu {
