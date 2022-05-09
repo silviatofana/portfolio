@@ -541,6 +541,9 @@ body {
 .blockover {
   overflow-y: hidden;
 }
+.blur{
+  filter: blur(3px);
+}
 
 @media (min-width: 992px) {
   .navbar {
