@@ -541,7 +541,8 @@ body {
 .blockover {
   overflow-y: hidden;
 }
-.blur{
+
+.blur {
   filter: blur(3px);
 }
 
