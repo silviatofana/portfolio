@@ -19,6 +19,7 @@
   "homepage": "https://github.com/silviatofana/portfolio#readme",
   "devDependencies": {
     "hint": "^6.1.11",
+    "sass": "^1.51.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
