@@ -16,6 +16,10 @@ p {
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .hero {
   background: #f7f7f9;
 }
@@ -151,30 +155,19 @@ p {
 }
 
 .btn {
-  -webkit-animation-duration: 0.8s;
   animation-duration: 0.8s;
   transition: background 0.8s ease-in-out, color 0.8s ease-in-out;
 }
 
 .btn:hover {
-  -webkit-animation-name: btn-hover;
   animation-name: btn-hover;
-  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
 
 .btn:focus {
   background: #2230d2;
   color: #fff;
-}
-
-@-webkit-keyframes btn-hover {
-  100% {
-    box-shadow: inset 11rem 0 0 0 #6070ff, 0 8px 16px rgba(64, 83, 252, 0.24);
-    color: #fff;
-  }
 }
 
 @keyframes btn-hover {
@@ -188,32 +181,32 @@ p {
   padding: 1rem 1.5rem;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .navbar__link {
   color: #2230d2;
+<<<<<<< HEAD
   -webkit-animation-name: rotate-logo;
+=======
+>>>>>>> 6775ae409e070da538f83bf6bc1ecb2cf8d92961
   animation-name: rotate-logo;
-  -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
-  -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   margin-right: 37%;
 }
 
-.navbar__menu {
-  display: none;
-}
-
-.navbar__hamb {
+.navbar__hamb,
+.navbar__close {
   cursor: pointer;
+  z-index: 100;
 }
 
 .head::before {
   content: "";
   position: absolute;
   background-color: #fff;
-  background-image: url("./images/desktop/contactformbackground\ shapes@2x.png");
+  background-image: url(./images/contact\ form\ background\ shapes@2x.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -282,7 +275,6 @@ p {
 
 .works__card__subtitle {
   align-items: center;
-  -moz-column-gap: 2rem;
   column-gap: 2rem;
   margin: 20px 0;
 }
@@ -403,7 +395,7 @@ p {
   content: "";
   position: absolute;
   background-color: #6070ff;
-  background-image: url("./images/desktop/contactformbackground\ shapes@2x.png");
+  background-image: url(./images/contact\ form\ background\ shapes@2x.png);
   background-size: contain;
   background-position: right;
   background-origin: content-box;
@@ -446,6 +438,11 @@ p {
   padding: 0 1rem;
 }
 
+.contact__container form li label {
+  display: block;
+  color: #fff;
+}
+
 .contact__container form li textarea {
   width: 100%;
   border-radius: 8px;
@@ -463,6 +460,91 @@ p {
   color: #6070ff;
   cursor: pointer;
   margin: 18px 0;
+}
+
+.navbar__menu__link {
+  transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
+}
+
+@media (min-width: 992px) {
+  .navbar__menu__link:hover {
+    color: #396df2;
+    font-size: 17px;
+  }
+}
+
+.head__icons__link img {
+  transition: transform 0.5s;
+}
+
+.about__icons__link img {
+  transition: transform 0.5s;
+}
+
+.head__icons__link img:hover {
+  transform: scale(1.5);
+}
+
+.about__icons__link img:hover {
+  transform: scale(1.5);
+}
+
+@keyframes rotate-logo {
+  50% {
+    transform: scale(1.5) rotate(360deg) translateX(-50%);
+  }
+
+  to {
+    transform: scale(1) rotate(720deg) translateX(0);
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar__menu {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(96, 112, 255, 0.95);
+    display: flex;
+    top: 0;
+    left: 100%;
+    transition: left 0.8s, visibility 0.8s, opacity 0.4s;
+    padding: 8rem 2rem;
+    z-index: 50;
+  }
+
+  .navbar__menu__ul {
+    flex-direction: column;
+  }
+
+  .navbar__menu__li {
+    margin-bottom: 40px;
+  }
+
+  .navbar__menu__li a {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #fff;
+    transition: color 1s;
+  }
+
+  .navbar__menu__li a:hover {
+    color: #000;
+  }
+}
+
+.active {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+  transition: left 0.8s, visibility 0.8s, opacity 0.4s;
+}
+
+.blockover {
+  overflow-y: hidden;
 }
 
 @media (min-width: 992px) {
@@ -484,7 +566,7 @@ p {
   }
 
   .head::before {
-    background-image: url("./images/desktop/Header\ bg@2x.png");
+    background-image: url(./images/desktop/headline-background.svg);
     padding: 6rem;
     border-bottom-left-radius: 8rem;
   }
@@ -507,8 +589,8 @@ p {
   }
 
   .works__card {
+    align-items: center;
     max-width: 1104px;
-    -moz-column-gap: 46px;
     column-gap: 46px;
     padding: 1.5rem;
   }
@@ -517,8 +599,8 @@ p {
     padding: 1rem;
   }
 
-  .works__card > * {
-    flex-basis: 50%;
+  .works__card__img {
+    width: 50%;
   }
 
   .works__card:nth-child(1),
@@ -534,7 +616,6 @@ p {
   .about {
     padding: 6rem;
     flex-direction: row;
-    -moz-column-gap: 37px;
     column-gap: 37px;
     border-top-right-radius: 8rem;
   }
@@ -545,7 +626,6 @@ p {
 
   .about__lang__bottom {
     display: flex;
-    -moz-column-gap: 12px;
     column-gap: 12px;
   }
 
@@ -560,7 +640,7 @@ p {
   }
 
   .contact::before {
-    background-image: url("./images/desktop/contactformbackground\ shapes@2x.png");
+    background-image: url(./images/desktop/contactformbackground\ shapes@2x.png);
     padding: 1rem;
     border-top-left-radius: 8rem;
   }
@@ -647,50 +727,5 @@ p {
   .contact {
     padding: 8.875rem;
     padding-bottom: 7.9rem;
-  }
-}
-
-.navbar__menu__link {
-  transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
-}
-
-.navbar__menu__link:hover {
-  color: #396df2;
-  font-size: 17px;
-}
-
-.head__icons__link img {
-  transition: transform 0.5s;
-}
-
-.about__icons__link img {
-  transition: transform 0.5s;
-}
-
-.head__icons__link img:hover {
-  transform: scale(1.5);
-}
-
-.about__icons__link img:hover {
-  transform: scale(1.5);
-}
-
-@-webkit-keyframes rotate-logo {
-  50% {
-    transform: scale(1.5) rotate(360deg) translateX(-50%);
-  }
-
-  to {
-    transform: scale(1) rotate(720deg) translateX(0);
-  }
-}
-
-@keyframes rotate-logo {
-  50% {
-    transform: scale(1.5) rotate(360deg) translateX(-50%);
-  }
-
-  to {
-    transform: scale(1) rotate(720deg) translateX(0);
   }
 }

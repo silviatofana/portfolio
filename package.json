@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/silviatofana/portfolio#readme",
   "devDependencies": {
+<<<<<<< HEAD
     "hint": "^6.1.12",
+=======
+    "hint": "^6.1.11",
+>>>>>>> 6775ae409e070da538f83bf6bc1ecb2cf8d92961
     "sass": "^1.51.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
