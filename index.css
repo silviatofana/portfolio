@@ -178,6 +178,10 @@ body {
   }
 }
 
+.hidden {
+  transform: scale(0);
+}
+
 .navbar {
   padding: 1rem 1.5rem;
   align-items: center;
@@ -458,6 +462,98 @@ body {
   margin: 18px 0;
 }
 
+.modal {
+  background: #fff;
+  padding: 1.5rem;
+  width: 90%;
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 1s, opacity 1s, visibility 0s;
+  z-index: 300;
+}
+
+.modal__header {
+  justify-content: space-between;
+}
+
+.modal__header img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.modal__image {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.modal__dsc__second {
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 40%;
+}
+
+.modal__dsc__second div {
+  margin: 1rem 0;
+}
+
+.modal__dsc__second p {
+  padding: 4px 12px;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+}
+
+.modal__btn {
+  margin: 1rem 0;
+}
+
+.modal__btn li a {
+  border: 1px solid #6070ff;
+  padding: 0.6rem 1.5vw;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+}
+
+.modal__feature ul {
+  padding: 0;
+  margin: 0;
+}
+
+.modal__feature ul li {
+  margin-left: 1.5rem;
+}
+
+.modal.active {
+  visibility: visible;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 1s, transform 1s, visibility 0s;
+  transform: scale(0);
+  background: rgba(193, 199, 208, 0.5);
+  z-index: 200;
+}
+
+.overlay.active {
+  visibility: visible;
+  transform: scale(1);
+  opacity: 1;
+  pointer-events: all;
+}
+
 .navbar__menu__link {
   transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
 }
@@ -543,8 +639,17 @@ body {
   overflow-y: hidden;
 }
 
-.blur {
-  filter: blur(1px);
+@media (min-width: 570px) {
+  .modal {
+    margin: 3rem 0;
+    width: 70%;
+  }
+}
+
+@media (min-width: 800px) {
+  .modal {
+    width: 60%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -670,6 +775,25 @@ body {
   }
 }
 
+.modal .image-project {
+  margin-inline: auto;
+  width: 70%;
+}
+
+/* .modal__image {
+  width: 100%;
+} */
+
+.modal__dsc {
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.modal__dsc__first {
+  flex-basis: 60%;
+  margin: 0.7rem 0;
+}
+
 @media (min-width: 1440px) {
   .fz-40 {
     font-size: 48px;
@@ -727,5 +851,14 @@ body {
   .contact {
     padding: 8.875rem;
     padding-bottom: 7.9rem;
+  }
+
+  .modal {
+    width: 60%;
+  }
+
+  .modal .image-project {
+    margin-inline: auto;
+    width: 65%;
   }
 }
