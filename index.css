@@ -22,6 +22,7 @@ body {
 
 .hero {
   background: #f7f7f9;
+  position: absolute;
 }
 
 .bg-white {
