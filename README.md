@@ -2,37 +2,30 @@
 
 # Portfolio: setup and mobile version skeleton desktop-version
 
-For this repository, I've created html templates and styling files in order to built a responsive portfolio ,  which can help to easy explorate  profiles from differents devices.
+In this project, I set up my portfolio repository. My goal here was to set up and customize my portfolio for mobile and desktop versions.
 
 ![home_page](https://github.com/silviatofana/desktop-ersion/blob/work_about_myself/images/screenshot_home_page.png)
 
 ## Built With 🔨
+ HTML and CSS and JS
+ - linters.yml
+ -.eslintrc.json
 
-- HTML
-- CSS
-- Git & Github
+To get a local copy up and running follow these simple steps:
+1. Go to the [repository page]https://github.com/silviatofana/portfolio
+2. Press the "Code" button and copy the link.
+3. Clone it using git command `git clone <link>`.
+
+## :blue_book: Learning Objectives
+
+- Understand how to parse a Figma design to create a UI.
+- Flexbox to place elements in the page.
+- Build a personal portfolio site.
+- Use images and backgrounds to enhance the look of the website.
 
 ## Live Demo
 
 [Live Demo Link](https://silviatofana.github.io/portfolio/)
-
-### Install
-
-To get a local copy up and running follow these simple example steps.
-- Open terminal
-- Clone this project by the command: 
-
-```
-$ git clone https://github.com/silviatofana/portfolio
-
-- Then go to the main folder using the next command:
-
-```
-$ cd Portfolio-setup-and-desktop-version.git
-```
-
-- Finally, run diplay the index.html file in your local browser, or also, you can use Live Server in Visual Studio Code.
-
 
 
 ### Prerequisites
@@ -53,8 +46,13 @@ $ cd Portfolio-setup-and-desktop-version.git
 
 - GitHub: [@silviatofana](https://github.com/silviatofana)
 - LinkedIn: [@silviatofana](www.linkedin.com/in/silvia-tofana-10b852186)
+- Twitter: [@silviatofana] (https://twitter.com/silviatofana)
 
-
+### Contributor
+👤 **Toma John Musa**
+- GitHub: https://github.com/Kamba56
+- Yahoo: tomajohn316@yahoo.com
+- Twitter: https://twitter.com/Kamba_TJ
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
