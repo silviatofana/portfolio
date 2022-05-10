@@ -544,7 +544,7 @@ body {
 }
 
 .blur {
-  filter: blur(3px);
+  filter: blur(1px);
 }
 
 @media (min-width: 992px) {
