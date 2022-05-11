@@ -4,7 +4,7 @@
 
 In this project, I set up my portfolio repository. My goal here was to set up and customize my portfolio for mobile and desktop versions.
 
-![home_page](https://github.com/silviatofana/desktop-ersion/blob/work_about_myself/images/screenshot_home_page.png)
+![home_page](https://silviatofana.github.io/portfolio/)
 
 ## Built With 🔨
  HTML and CSS and JS
@@ -12,7 +12,7 @@ In this project, I set up my portfolio repository. My goal here was to set up an
  -.eslintrc.json
 
 To get a local copy up and running follow these simple steps:
-1. Go to the [repository page]https://github.com/silviatofana/portfolio
+1. Go to the [repository page]https://silviatofana.github.io/portfolio/
 2. Press the "Code" button and copy the link.
 3. Clone it using git command `git clone <link>`.
 
