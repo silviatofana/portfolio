@@ -11,6 +11,11 @@
   .modal {
     width: 60%;
   }
+
+  .works__card__text{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 992px) {

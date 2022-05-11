@@ -810,7 +810,8 @@ body {
 } */
 
 .modal__dsc {
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
 }
 
