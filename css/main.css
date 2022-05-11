@@ -486,17 +486,10 @@ body {
   margin: 1rem 0;
 }
 
-.modal__dsc {
-  flex-direction: column;
-}
-
-.modal__dsc__first {
-  margin: 0.7rem 0;
-}
-
 .modal__dsc__second {
   flex-direction: column;
   align-items: flex-start;
+  flex-basis: 40%;
 }
 
 .modal__dsc__second div {
@@ -805,6 +798,25 @@ body {
   .modal__dsc__second {
     flex-basis: 40%;
   }
+}
+
+.modal .image-project {
+  margin-inline: auto;
+  width: 70%;
+}
+
+/* .modal__image {
+  width: 100%;
+} */
+
+.modal__dsc {
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.modal__dsc__first {
+  flex-basis: 60%;
+  margin: 0.7rem 0;
 }
 
 @media (min-width: 1440px) {
