@@ -1,4 +1,4 @@
-@use 'variables' as *;
+@import 'variables';
 
 .navbar__menu__link {
   transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
