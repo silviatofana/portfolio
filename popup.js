@@ -11,7 +11,7 @@ export const projects = [
     tool2: 'css',
     tool3: 'javascript',
     linkLive: 'https://silviatofana.github.io/loopstudios-landing-page/',
-    linkSource: 'https://github.com/silviatofana/loopstudios-landing-page',
+    linkSource: 'https://github.com/silviatofana/portfolio/tree/popup-window',
   },
   {
     name: 'Multi-Post Stories',
@@ -25,7 +25,7 @@ export const projects = [
     tool2: 'css',
     tool3: 'javascript',
     linkLive: 'https://silviatofana.github.io/crowdfunding-product-page/',
-    linkSource: 'https://github.com/silviatofana/crowdfunding-product-page',
+    linkSource: 'https://github.com/silviatofana/portfolio/tree/popup-window',
   },
   {
     name: 'Facebook 360',
@@ -39,7 +39,7 @@ export const projects = [
     tool2: 'css',
     tool3: 'javascript',
     linkLive: 'https://silviatofana.github.io/rock_paper_scissors/',
-    linkSource: 'https://github.com/silviatofana/rock_paper_scissors',
+    linkSource: 'https://github.com/silviatofana/portfolio/tree/popup-window',
   },
   {
     name: 'Uber Navigation',
@@ -52,8 +52,8 @@ export const projects = [
     tool1: 'html',
     tool2: 'css',
     tool3: 'javascript',
-    linkLive: 'https://github.com/silviatofana/portfolio',
-    linkSource: 'https://silviatofana.github.io/portfolio/',
+    linkLive: 'https://github.com/silviatofana/portfolio/tree/popup-window',
+    linkSource: 'https://github.com/silviatofana/portfolio/tree/popup-window',
   },
 ];
 
