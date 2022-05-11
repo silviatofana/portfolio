@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile version skeleton desktop-version
+# Portfolio: popup-window for both mobile and desktop version
 
-In this project, I set up my portfolio repository. My goal here was to set up and customize my portfolio for mobile and desktop versions.
+In this project, I  implement a popup window that includes the project details on both desktop and mobile.
 
 ![home_page](https://silviatofana.github.io/portfolio/)
 
