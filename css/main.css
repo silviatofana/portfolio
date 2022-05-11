@@ -526,6 +526,8 @@ body {
   visibility: visible;
   transform: scale(1);
   opacity: 1;
+  margin-top: 320px;
+  border-radius: 16px;
 }
 
 .overlay {

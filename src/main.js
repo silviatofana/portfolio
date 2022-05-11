@@ -14,7 +14,7 @@ menuLinks.forEach((menuLink) => {
 // Event that detects when the page loads
 document.addEventListener('DOMContentLoaded', () => {
   createModal();
-
+  
   const buttonsProject = document.querySelectorAll('.works__card button');
   const closeIcon = document.querySelector('.closeModal');
   const modal = document.querySelector('.modal');
@@ -34,10 +34,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeModal = () => {
     modal.classList.remove('active');
     backgroundModal.classList.remove('active');
+    document.querySelector('.hero').style.filter = "blur(0px)";
   };
 
   buttonsProject.forEach((button) => {
     button.addEventListener('click', () => {
+      
+      document.querySelector('.hero').style.filter = "blur(3px)";
       if (button.id === '0') {
         projectName.textContent = `${projects[button.id].name}`;
         projectFeature.textContent = `${projects[button.id].feature}`;
