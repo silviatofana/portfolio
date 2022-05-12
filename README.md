@@ -4,7 +4,7 @@
 
 In this project, I  implement a popup window that includes the project details on both desktop and mobile.
 
-![home_page](https://silviatofana.github.io/portfolio/)
+
 
 ## Built With 🔨
  HTML and CSS and JS
