@@ -50,9 +50,9 @@ To get a local copy up and running follow these simple steps:
 
 ### Contributor
 👤 **Toma John Musa**
-- GitHub: https://github.com/Kamba56
+- GitHub: [@Kamba56]https://github.com/Kamba56
 - Yahoo: tomajohn316@yahoo.com
-- Twitter: https://twitter.com/Kamba_TJ
+- Twitter: [@Kamba_TJ]https://twitter.com/Kamba_TJ
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
