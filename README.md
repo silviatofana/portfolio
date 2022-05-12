@@ -1,10 +1,10 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](/portfolio/images/Portfolio1-big.png)
 
 # Portfolio: popup-window for both mobile and desktop version
 
 In this project, I  implement a popup window that includes the project details on both desktop and mobile.
 
-![home_page](https://silviatofana.github.io/portfolio/)
+[home_page](https://silviatofana.github.io/portfolio/)
 
 ## Built With 🔨
  HTML and CSS and JS
