@@ -207,7 +207,7 @@ form.addEventListener('submit', (event) => {
   if (email.value !== email.value.toLowerCase()) {
     event.preventDefault();
     displayMsg.style.visibility = 'visible';
-    displayMsg.classList.add('error-msg');
+    displayMsg.classList.add('error-description');
     setTimeout(() => {
       displayMsg.style.visibility = 'hidden';
     }, 3000);
@@ -219,7 +219,7 @@ form.addEventListener('submit', (event) => {
 let formData = {
   full_name: '',
   email: '',
-  message: '',
+  description: '',
 };
 
 // retrieving the local storage
