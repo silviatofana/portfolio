@@ -216,6 +216,8 @@ form.addEventListener('submit', (event) => {
   }
 });
 
+
+// Local storage functionality
 let formData = {
   full_name: '',
   email: '',
