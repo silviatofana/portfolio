@@ -1,38 +1,31 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](/portfolio/images/Portfolio1-big.png)
 
-# Portfolio: setup and mobile version skeleton desktop-version
+# Portfolio: popup-window for both mobile and desktop version
 
-For this repository, I've created html templates and styling files in order to built a responsive portfolio ,  which can help to easy explorate  profiles from differents devices.
+In this project, I  implement a popup window that includes the project details on both desktop and mobile.
 
-![home_page](https://github.com/silviatofana/desktop-ersion/blob/work_about_myself/images/screenshot_home_page.png)
+[home_page](https://silviatofana.github.io/portfolio/)
 
 ## Built With 🔨
+ HTML and CSS and JS
+ - linters.yml
+ -.eslintrc.json
 
-- HTML
-- CSS
-- Git & Github
+To get a local copy up and running follow these simple steps:
+1. Go to the [repository page]https://silviatofana.github.io/portfolio/
+2. Press the "Code" button and copy the link.
+3. Clone it using git command `git clone <link>`.
+
+## :blue_book: Learning Objectives
+
+- Understand how to parse a Figma design to create a UI.
+- Flexbox to place elements in the page.
+- Build a personal portfolio site.
+- Use images and backgrounds to enhance the look of the website.
 
 ## Live Demo
 
 [Live Demo Link](https://silviatofana.github.io/portfolio/)
-
-### Install
-
-To get a local copy up and running follow these simple example steps.
-- Open terminal
-- Clone this project by the command: 
-
-```
-$ git clone https://github.com/silviatofana/portfolio
-
-- Then go to the main folder using the next command:
-
-```
-$ cd Portfolio-setup-and-desktop-version.git
-```
-
-- Finally, run diplay the index.html file in your local browser, or also, you can use Live Server in Visual Studio Code.
-
 
 
 ### Prerequisites
@@ -53,8 +46,13 @@ $ cd Portfolio-setup-and-desktop-version.git
 
 - GitHub: [@silviatofana](https://github.com/silviatofana)
 - LinkedIn: [@silviatofana](www.linkedin.com/in/silvia-tofana-10b852186)
+- Twitter: [@silviatofana] (https://twitter.com/silviatofana)
 
-
+### Contributor
+👤 **Toma John Musa**
+- GitHub: [@Kamba56]https://github.com/Kamba56
+- Yahoo: tomajohn316@yahoo.com
+- Twitter: [@Kamba_TJ]https://twitter.com/Kamba_TJ
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -73,3 +71,7 @@ Give a ⭐️ if you like this project!
 - Microverse program ⚡
 - My standup team 🏹
 - My family's support 🙌
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
