@@ -290,3 +290,11 @@
   align-items: center;
   margin-left: 32px;
 }
+
+.counter-img {
+  margin: 2px;
+}
+
+.tonic {
+  margin: 10px 0;
+}

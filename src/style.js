@@ -72,9 +72,10 @@ const portfolioCards = cards
 }" alt="nature-animated-image">
                     </div>
                     <div class="cards74">
-                        <h2 class="tonic-class-${index}">${card.title}</h2>
+                        <h2 class="tonic-class-${index} tonic">${card.title}</h2>
                         
-                        <h5 class="heading-canopy"><b>CANOPY</b> <span>·</span><small> Back End Dev <span>·</span> 2015 </small> </h5>
+                        <h5 class="heading-canopy"><b>CANOPY</b> <span><img class='counter-img' src="/portfolio/images/Counter.png"></span>
+                        <small> Back End Dev <span><img  class='counter-img' src="/portfolio/images/Counter.png"></span> 2015 </small> </h5>
                         <p class="description">
                            ${card.cardDescription}
                         </p>
